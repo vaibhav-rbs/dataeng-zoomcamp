@@ -361,7 +361,7 @@ Docker compose makes use of YAML files. Here's the `docker-compose.yaml` file fo
 
 ```yaml
 services:
-  pgdatabase:
+  pg-database:
     image: postgres:13
     environment:
       - POSTGRES_USER=root
